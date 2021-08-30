@@ -50,7 +50,7 @@ setopt CORRECT
 setopt CORRECT_ALL
 
 # Functions
-fpath+=$HOME/.config/zsh/functions # Change to /etc/zsh/custom/functions when using systemwide
+fpath+=$HOME/.config/zsh/functions # Change to $HOME/.config/zsh/functions for local functions
 autoload bkp_file
 autoload cd
 
@@ -59,5 +59,3 @@ autoload bashcompinit
 bashcompinit
 autoload -Uz compinit
 compinit
-
-export PATH="$HOME/bin:/usr/local/sbin:/usr/sbin/:/sbin:$PATH"
